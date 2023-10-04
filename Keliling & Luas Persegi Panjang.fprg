@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="SMADA-1"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-22 08:48:36 AM"/>
+        <attribute name="created" value="U01BREEtMTtDTElFTlQtMzY7MjAyMy0wOS0yMjswODozMDozNSBBTTsyMzE3"/>
+        <attribute name="edited" value="U01BREEtMTtDTElFTlQtMzY7MjAyMy0wOS0yMjswODo0ODozNiBBTTsxOzI0MzU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Luas" type="Real" array="False" size=""/>
+            <declare name="Keliling" type="Real" array="False" size=""/>
+            <declare name="Panjang" type="Real" array="False" size=""/>
+            <declare name="Lebar" type="Real" array="False" size=""/>
+            <output expression="&quot;Masukkan Nilai Panjang&quot;" newline="True"/>
+            <input variable="Panjang"/>
+            <output expression="&quot;Masukkan Nilai Lebar&quot;" newline="True"/>
+            <input variable="Lebar"/>
+            <assign variable="Luas" expression="Panjang*Lebar"/>
+            <assign variable="Keliling" expression="2*(Panjang+Lebar)"/>
+            <output expression="&quot;Hasil Luas&quot;" newline="True"/>
+            <output expression="Luas" newline="True"/>
+            <output expression="&quot;Hasil Keliling&quot;" newline="True"/>
+            <output expression="Keliling" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
